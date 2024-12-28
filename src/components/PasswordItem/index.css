@@ -1,0 +1,46 @@
+.password-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #94a3b8;
+  border-radius: 10px;
+  padding: 10px;
+  width: 230px;
+}
+.letter {
+  width: 40px; /* Adjust the size */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: white; /* White text color */
+  font-weight: bold; /* Bold text */
+  font-size: 20px; /* Adjust the font size */
+  text-transform: uppercase; /* Ensure the letter is uppercase */
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.para {
+  color: white;
+  font-family: Roboto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100px;
+}
+.password-img {
+  height: 20px;
+  width: 100px;
+  display: block;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.delete-img {
+  height: 20px;
+  width: 20px;
+  margin-top: 45px;
+  margin-left: 15px;
+  flex-shrink: 0;
+}
